@@ -1,0 +1,52 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet Packages
+*.nupkg
+packages/
+*.snupkg
+
+# EF Core Migrations (tuỳ ý)
+# Migrations/
+
+# ASP.NET / .NET Core
+*.db
+*.sqlite
+*.log
+appsettings.Local.json
+appsettings.Development.json
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+**/Dockerfile.*
+
+# Publish output
+publish/
+*.publish.xml
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# User secrets
+secrets.json
